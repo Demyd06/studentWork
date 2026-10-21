@@ -1,5 +1,6 @@
 package main;
 
+import main.model.Student;
 import main.model.User;
 
 /**
@@ -18,7 +19,9 @@ public class Main {
         System.out.println("Not hello");
 
         User testUser = new User("Polina", "polina@gmail.com", "1111");
+        User testUser2 = new Student("Vova", "vova@gmail.com", "2222", "CD:12342", "SHID-33");
 
         System.out.println(testUser);
+        System.out.println(testUser2);
     }
 }
