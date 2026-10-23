@@ -38,6 +38,7 @@ public class Student extends User {
 
     @Override
     public String toString() {
-        return String.format("String{name -> %s, idCard -> %s, Course -> %s}", super.getName(), idCard, course);
+        return String.format(
+                "String{name -> %s, idCard -> %s, Course -> %s}", super.name, idCard, course);
     }
 }

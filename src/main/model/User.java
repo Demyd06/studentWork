@@ -11,7 +11,7 @@ package main.model;
  * Project name: studentWork
  */
 public class User {
-    private String name;
+    String name;
     private String email;
     private String password;
 
